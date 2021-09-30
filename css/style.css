@@ -235,6 +235,11 @@
     .fh5co-heading .heading {
         font-size: 40px;
     }
+
+    
+#fh5co-home {
+    min-height: 600px; 
+}
 }
 
 .fh5co-heading .heading:after {
