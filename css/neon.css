@@ -86,13 +86,7 @@
     column-count: 1;
   }
     .ribbon span {top:  18px;right:-17px;transform: scale(0.8);} 
-    .csslider1 {
-	 
-	max-width: 380px;
-	 
-	margin-top:130px;
-   
-}
+    
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
