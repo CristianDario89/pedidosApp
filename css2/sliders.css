@@ -17,22 +17,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
 
 
 
-/*-----------------*/  
-.swiper-container{
-    margin-top: 30px;
-  width:500px;
-  
-}
-
-.swiper-slide{
-  background:#d3d3d3;
-  overflow:hidden;
-}
-img{
-  width:100%;
-}
- 
-
+/*-----------------*/   
 @media (max-width:576px){
   .swiper-container{
    
