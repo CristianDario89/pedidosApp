@@ -93,29 +93,29 @@ strike.straight::before {
         margin-left: 0px;
     }
     30% {
-        margin-left: -452px;
+        margin-left: -352px;
     }
     50% {
-        margin-left: -452px;
+        margin-left: -352px;
     }
     60% {
-        margin-left: -904px;
+        margin-left: -704px;
     }
     70% {
-        margin-left: -904px;
+        margin-left: -704px;
     }
     80% {
-        margin-left: -1306px;
+        margin-left: -1056px;
     }
     90% {
-        margin-left: -1306px;
+        margin-left: -1056px;
     }
 }
 
 @media screen and (max-width:900px) {
     .frame {
         overflow: hidden;
-        width: 452px;
+        width: 352px;
         margin: 0 auto;
     position: relative;top: 40px;
     }
@@ -124,7 +124,7 @@ strike.straight::before {
         margin-top: 3px;
     }
     .containerslider li {
-        width: 450px;
+        width: 350px;
         height: 200px;
     }
     .containerslider ul {
