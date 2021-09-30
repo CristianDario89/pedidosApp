@@ -1,0 +1,3 @@
+- ajustar divs en responsive 600
+
+# css

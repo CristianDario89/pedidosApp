@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap'); 
+html{  scroll-behavior: smooth; } 
+
+*{padding: 0;box-sizing: border-box;}
+
+.wrapppal{
+    max-width: 1300px;
+}
+@keyframes up{0%{transform: translate(0px, -120px);}
+to{transform: translate(0px, 0px);}  
+} 
+
+.h1seccion{ text-align: center;  margin: 20px 0 60px 0 ;font-family:cursive; font-weight: 600; 
+ 
+}
+.estesale{  display: none;}
+
+.mercadopago{ z-index: 11;  
+transform: translateY(-50px); }
+ .mercadopago img{width: 130px;height: 40px;border-radius: 8px;animation: up 4s;}  
+
+.tituscontacto{letter-spacing: 3px;font-weight: 600;}
+/*---------------------*/
+@media screen and (max-width: 800px) {
+    
+.mercadopago{animation: left 5s;    }
+.centrowsp{border-bottom: 12px solid deepskyblue;position: relative;z-index: 1;} 
+.menucostado{ line-height: 30px;transform: scale(1.2);margin-top:12px;
+   text-shadow: 1px 1px 12px deepskyblue;
+    font-family: Montserrat;font-weight: 800;letter-spacing: 1.2px;
+    transform: scaleY(1.8) scaleX(1.4);} 
+  .estesale{  display: block;}
+
+    
+}  
+.centrowsp{    font-size: 20px;} 
+/*-----------Menu ppal---------------------*/
+.flexmelli{
+    display: flex;flex-wrap: wrap;
+  width: 900px;  
+    margin: auto; margin-top: 20px;  padding-left:140px;
+   font-family: "Montserrat", serif; 
+}
+.flexmelli div{   width: 25%; border-radius: 8px;
+    margin:  2px;padding: 5px;
+} 
+/*--- --- FUENTES- -----*/
+.wrapmelli{   border: 2px solid skyblue; }
+.wrapmelli img{width: 100%;height: 80px;border-radius: 6px;} 
+.wrapmelli .pp a{ 
+    text-decoration: none;  
+  margin-left: 44px;color:skyblue; 
+}
+.wrapmelli .pp a:hover{color:deepskyblue; transform: scale(1.3);
+ text-shadow: 1px 1px 11px red,
+        -1px -1px 11px red;}
+ 
+/*------------------------------------*/
+.cuadras{letter-spacing: 2px;text-align: left;}
+
+.gustostasty{
+    margin-left: 70px;letter-spacing: 1.7px;
+    background-color: red; 
+}
+.gustostasty ul{color: red;font-weight: 600;
+}
+.gustostasty ul li{ transform: }
+/*---------------------------------*/
+@media screen and (max-width: 719px) {   
+.flexmelli{    width: 470px;padding-left:0px;  }
+.flexmelli div{width:32%;border-radius: 8px;margin-right:2px;padding: 5px;}
+    
+.wrapmelli img{ height: 80px;}  
+.wrapmelli .pp a{ margin-left:  1px; }
+.wrapmelli .pp{  margin-left:  -9px; transform: scale(0.9);}
+}
+/*---------------------*/
+@media screen and (max-width:500px) {       
+.flexmelli{   margin-top: 20px; width: 300px;padding-left:0px;   }
+.flexmelli div{
+    width:      32%;border-radius: 8px;
+    margin-right:  2px;padding: 5px;
+}
+.flexdelivery ul li{ line-height: 20px;}
+ .cuadras{letter-spacing: 0.1px;}   
+} 
