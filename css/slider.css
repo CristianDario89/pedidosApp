@@ -1293,10 +1293,10 @@
 	animation: none;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 321px) and (max-width: 868px) {
 
 .csslider1 {
-	width:310px; margin-left: auto;
+	width:330px; 
 }
 }
 
