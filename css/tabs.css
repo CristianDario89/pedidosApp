@@ -121,7 +121,7 @@ ul#tabs-nav3 li.active {
 }
 
 @media screen and (max-width:900px) { 
-  .tabs3 {   margin: 20px 0px; }  
+  .tabs3 {   margin: 2px 0px; }  
     .tabs {width: 100%; margin-top: 0px; }
 } 
 
