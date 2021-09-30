@@ -15,20 +15,20 @@ s::before, strike::before {
 }
 s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;width:102%;}
 
-
-
 /*-----------------*/   
-@media (max-width:576px){
-  .swiper-container{
-   
-  }
-}
+.frame{
+    overflow: hidden; width: 602px; margin: 0 auto; }
 
-.frame, .frame2 {
-    overflow: hidden; width: 302px; margin: 0 auto;transform: scaleY(1.4) scaleX(1.7)}
-.containerslider, .containerslider2 {width: 1280px; margin-top: 100px;}
-.containerslider li, .containerslider2 li {width: 300px; height: 200px; border: 1px solid #000; float:left; overflow: hidden; text-align: center; line-height: 200px; font-size: 30px;}
-.containerslider ul, .containerslider2 ul {
+.containerslider{width: 1280px; margin-top: 100px;}
+
+.containerslider li{
+  width: 600px; height: 400px; 
+  border: 1px solid #000; 
+  float:left; overflow: hidden; text-align: center; 
+  line-height: 200px; font-size: 30px;
+}
+.containerslider ul{
+ 
   width: 2912px;
   -webkit-animation: slide 20s ease infinite;
 }
@@ -37,10 +37,34 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
 
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}
-  30% {margin-left: -302px;}
-  50% {margin-left: -302px;}
-  60% {margin-left: -604px;}
-  70% {margin-left: -604px;}
-  80% {margin-left: -906px;}
-  90% {margin-left: -906px;}
+  30% {margin-left: -602px;}
+  50% {margin-left: -602px;}
+  60% {margin-left: -1204px;}
+  70% {margin-left: -1204px;}
+  80% {margin-left: -1806px;}
+  90% {margin-left: -1806px;}
 }
+@-webkit-keyframes slide2 {
+  20% {margin-left: 0px;}
+  30% {margin-left: -402px;}
+  50% {margin-left: -402px;}
+  60% {margin-left: -804px;}
+  70% {margin-left: -804px;}
+  80% {margin-left: -1206px;}
+  90% {margin-left: -1206px;}
+}
+@media screen and (max-width:900px) { 
+  .frame{
+    overflow: hidden; width:402px; margin: 0 auto; }
+ 
+
+.containerslider{width: 1280px; margin-top: 3px;}
+
+.containerslider li{
+  width:400px; height: 200px; 
+   
+}
+.containerslider ul{ 
+  -webkit-animation: slide2 20s ease infinite;
+}
+} 
