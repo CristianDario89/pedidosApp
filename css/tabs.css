@@ -1,7 +1,7 @@
  /* Tabs */
 .tabs {
   width: 95%;
-  background-color: #09F;
+  background-color: black;
   border-radius: 5px 5px 5px 5px;
    margin-top: 30px; 
 }
@@ -23,7 +23,7 @@ ul#tabs-nav li {
 }
 ul#tabs-nav li:hover,
 ul#tabs-nav li.active {
-  background-color: #08E;
+  background-color: rgb(161, 27, 139);
 }
 #tabs-nav li a {
   text-decoration: none;
@@ -31,7 +31,7 @@ ul#tabs-nav li.active {
 }
 .tab-content {
   padding: 10px;
-  border: 5px solid #09F;
+  border: 5px solid black;
   background-color: #FFF;
 }
 @media screen and (max-width:900px) { 
@@ -43,7 +43,7 @@ ul#tabs-nav li.active {
   /* Tabs2 */
 .tabs2 {
   width: 100%;
-  background-color: #09F;
+  background-color: black;
   border-radius: 5px 5px 5px 5px;
     margin: 20px 10px; 
 }
@@ -65,7 +65,7 @@ ul#tabs-nav2 li {
 }
 ul#tabs-nav2 li:hover,
 ul#tabs-nav2 li.active {
-  background-color: #08E;
+  background-color: rgb(161, 27, 139);
 }
 #tabs-nav2 li a {
   text-decoration: none;
@@ -73,7 +73,7 @@ ul#tabs-nav2 li.active {
 }
 .tab-content2 {
   padding: 10px;
-  border: 5px solid #09F;
+  border: 5px solid black;
   background-color: #FFF;
 }
 @media screen and (max-width:900px) { 
@@ -86,7 +86,7 @@ ul#tabs-nav2 li.active {
   /* Tabs3 */
 .tabs3 {
   width: 100%;
-  background-color: #09F;
+  background-color: black;
   border-radius: 5px 5px 5px 5px;
     margin: 20px 10px; 
 }
@@ -108,7 +108,7 @@ ul#tabs-nav3 li {
 }
 ul#tabs-nav3 li:hover,
 ul#tabs-nav3 li.active {
-  background-color: #08E;
+  background-color: rgb(161, 27, 139);
 }
 #tabs-nav3 li a {
   text-decoration: none;
@@ -116,7 +116,7 @@ ul#tabs-nav3 li.active {
 }
 .tab-content3 {
   padding: 10px;
-  border: 5px solid #09F;
+  border: 5px solid black;
   background-color: #FFF;
 }
 
