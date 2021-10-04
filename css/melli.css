@@ -102,11 +102,7 @@ html {
 
 
 /*--- --- FUENTES- -----*/
-
-.wrapmelli {
-    
-}
-
+ 
 .wrapmelli img {
     width: 100%;
     height: 80px;
@@ -149,6 +145,7 @@ html {
     .flexmelli {
         width: 470px;
         padding-left: 0px;
+        margin-top: -11px;
     }
     .flexmelli div {
         width: 32%;
@@ -169,24 +166,4 @@ html {
 }
 
 
-/*---------------------*/
-
-@media screen and (max-width:500px) {
-    .flexmelli {
-        margin-top: 20px;
-        width: 300px;
-        padding-left: 0px;
-    }
-    .flexmelli div {
-        width: 32%;
-        border-radius: 8px;
-        margin-right: 2px;
-        padding: 5px;
-    }
-    .flexdelivery ul li {
-        line-height: 20px;
-    }
-    .cuadras {
-        letter-spacing: 0.1px;
-    }
-}
+ 
