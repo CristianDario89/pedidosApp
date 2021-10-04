@@ -78,6 +78,7 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css2/sliders.css">
+    <link rel="stylesheet" href="css2/leftmenu.css">
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -431,18 +432,34 @@
 
     <div class="wrapcarrp">
         <a class="gotopbtn" href="#"> <i class=""></i>^</a>
-<!--
-     <div class="gotopbtn8">
-            <div class=" " data-toggle="modal" data-target="#cart">
-                <img src="images/car2.png">
+ 
+     
+   </div>
 
-            </div>
-
-        </div>
--->
-       
-
-    </div>
+<!--Right Side Buttons Start-->
+<div class="sticky-container">
+    <ul class="sticky">
+      <li>
+        <img width="32" height="32" title="" alt=""  data-toggle="modal" data-target="#cart" src="images/car2.png"/>
+        <p>Reservar</p>
+      </li>
+      <!--
+        <li>
+        <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1qbielCGRqeH480vWlo9UJljepi8wEpWj" />
+         <p class="gotopbtn" href="#"> <i class=""></i>^</p>
+ 
+      </li>
+      <li>
+        <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=16M9xr7IZHEzP7V5kZzt1NrliUy-mdhFK" />
+        <p>Vimeo</p>
+      </li>
+      
+      -->
+    
+    </ul>
+  </div>
+<!--Right Side Buttons End-->    
+  
     <!-- Modal -->
     <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -476,26 +493,35 @@
                             <div class="form-group">
                                 <label for="occation" class="sr-only">Occation</label>
                                 <select class="form-control" id="entrega">
-                                    <option>Seleccionar tipo de entrega</option>
-                                    <option>Delivery</option>
+                                ww    <option>Delivery</option>
                                     <option>Retiro en el local</option>
                                 </select>
                             </div>
                         </div>
+                      
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label for="occation" class="sr-only">Occation</label>
                                 <select class="form-control" id="pago">
-                                    <option>Forma de pago</option>
                                     <option>Efectivo</option>
                                     <option>Mercado pago</option>
                                 </select>
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Ingrese productos</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                rows=3 cols=20
+            placeholder="1 coca-cola
+1 chocolina
+2 misky 50gr"></textarea>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="form-group ">
-                        <input class="btn btn-primary" onclick="guardar()" value="Realizar pedido" type="submit">
+                        <input class="btn btn-primary" onclick="guardar()" value="Reservar pedido" type="submit">
                     </div>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
 

@@ -547,7 +547,9 @@ var over1 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
 <li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 
 
-</ul> `  }     
+</ul> ` 
+
+}     
 
 
 over1("#pga1", Dulces[0].marca,Dulces[0].precio, Dulces[1].marca,Dulces[1].precio, Dulces[2].marca,Dulces[2].precio, Dulces[3].marca,Dulces[3].precio, Dulces[4].marca,Dulces[4].precio, Dulces[5].marca,Dulces[5].precio);
