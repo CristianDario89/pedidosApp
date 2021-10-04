@@ -143,14 +143,14 @@ html {
 
 @media screen and (max-width: 719px) {
     .flexmelli {
-        width: 370px;
+        width: 360px;
         padding-left: 0px;
-        margin-top: -11px;
+        margin-top: -21px;
     }
     .flexmelli div {
         width: 32%;
         border-radius: 8px;
-        margin-right: 2px;
+       
         padding: 5px;
     }
     .wrapmelli img {
